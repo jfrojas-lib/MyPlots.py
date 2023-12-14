@@ -4,7 +4,7 @@ The module consists of a set of mnemonic functions to quickly build function and
 The user can define whether each plotting action is performed in a separate window or in the same and can change the color, marker, style, and line type each time with explicit functions for each case.
 --
 ---
-# General characteristics:
+# General characteristics: 
 --
 * First argument is Y axis: the function or object to be plotted so that Plot(sin) will make a graph of sin(x) function for the interval [0,10] by default. Plot(sin,[.pi,2*pi]) do it in this interval and Plot(sin,[.pi,2*pi],500) make same plot with 500 points.
 * All this with the line style and/or markers defined by user: setLineStyle("-") or setLineStyle(0) are equivalent, same as setPointStyle(0) or setPointStyle(".") (see constants below)
