@@ -1,6 +1,6 @@
 # MyPlots.py
 ---
-The module consists of a set of mnemonic functions to quickly build function and data graphs using lists and arrays or explicit functions (library or user-defined).
+The module consists of a set of mnemonic functions from matplotlib module to quickly build function and data graphs using lists and arrays or explicit functions (library or user-defined).
 The user can define whether each plotting action is performed in a separate window or in the same and can change the color, marker, style, and line type each time with explicit functions for each case.
 --
 ---
