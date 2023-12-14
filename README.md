@@ -7,7 +7,7 @@ The user can define whether each plotting action is performed in a separate wind
 # Some functions:
 ---
 
-def setSameFigure(same=True):
+def setSameFigure(same=True):   defines if yes or no to use same window on each plot calling
 
 def NextFigure():  create or move to next figure window
 
