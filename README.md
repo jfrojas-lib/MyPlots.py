@@ -10,7 +10,7 @@ The user can define whether each plotting action is performed in a separate wind
 * All this with the line style and/or markers defined by user: setLineStyle("-") or setLineStyle(0) are equivalent, same as setPointStyle(0) or setPointStyle(".") (see constants below)
 ---
 
-# Some functions:
+# Functions:
 ---
 
 def setSameFigure(same=True):   defines if yes or no to use same window on each plot calling
@@ -137,37 +137,48 @@ def UpDataXY(x,y):
 
 def UpDataXYZ(x,y,z):
 
-   # from Array4
-   export Pareto
-   export linspace
-   export meshgrid
-   export meshgrid2
-   export meshgrid3
+# Constants and defaults
 
-   # from PyPlot
-   export ion
-   export ioff
-"""
+---
 
 MyFigure = 0
+
 SameFigure = False
+
 FixedAxis = False
+
 Ax,AnimAx,AnimPlot,Fig,LineAnim,Func = 0, 0, 0, 0, 0, 1
+
 TheColors = "0123456789abcdef"
+
 MyColor = "random"
+
 ThePointStyles = ".,o^v<>12345678spPhH*+xXdD|_"
+
 TheLineStyles = ['-', '--', '-.', ':', '',]
+
 TheStyles = ["bmh","classic","fast","grayscale"]
+
 InitPoint = "k."
+
 LineWidth = 1.0
+
 MarkerSize = 5 
+
 IsTheFirst = True
+
 Animate = False
+
 Xle,Xri,Yup,Ydn = 0,0,0,0
+
 AnimateBoxDefined = False
+
 PointStyle = "o"
+
 PointStyleL = ""
+
 LineStyle = "-"
+
 Style = "classic"
 
 ion()
